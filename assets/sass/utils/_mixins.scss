@@ -1,0 +1,13 @@
+@mixin flexBox($justify-content: center, $align-items: center) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+
+@mixin  default($padding-top: 90px) {
+    background-color: $bg-color;
+    padding-top: $padding-top;
+    font-family: "Epilogue", sans-serif;
+    color: $text-dark;
+}
